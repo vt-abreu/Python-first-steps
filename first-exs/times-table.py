@@ -1,5 +1,7 @@
-#Criar uma tabuada
+#Create one times table.
+
 n = int(input('Digite um número inteiro: '))
+
 print('{} * 1 ='.format(n) , n * 1)
 print('{} * 2 ='.format(n) , n * 2)
 print('{} * 3 ='.format(n) , n * 3)

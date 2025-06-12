@@ -1,8 +1,10 @@
-#Fazer um programa que pergunte a quantidade de km rodados por um carro
-#a quantidade de dias que este carro foi alugado
-#e que calcule o preço a ser pago, sabendo que
-#cada dia custa 60€ e cada km custam 0.15€
+#Create a program to ask the quantity of km of a car.
+#The quantity of days this car was rented.
+#And calculate the price to be paid by rental.
+#Note: each day costs 60€ and each km costs 0.15€.
+#Example: p = (km * 0.15) + d * 60.
+
 km = float(input('Digite quantos quilometros foram rodados: '))
 d = int(input('Digite quantos dias foram utilizados '))
-#p = (km * 0.15) + d * 60
-print('O valor a ser pago é de: €{:.2f}'.format((km * 0.15) + d * 60))
+
+print('\nO valor a ser pago é de: €{:.2f}'.format((km * 0.15) + d * 60))
